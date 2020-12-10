@@ -91,7 +91,7 @@ class MainActivity : AppCompatActivity(),View.OnClickListener {
                             }
                         }
                     }
-                }, 0, 2000)}
+                }, 2000, 2000)}
             else if (mTimer != null){
                 mTimer!!.cancel()
                 mTimer = null
